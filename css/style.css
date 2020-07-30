@@ -4320,8 +4320,20 @@ ul.hero_list li:last-child {
 }
 
 .popular-place-wrap.v2 .single-place-image {
+    padding-top: 66%;
     position: relative;
     display: block;
+}
+
+.popular-place-wrap.v2 .single-place-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    min-height: 100%;
+    width: auto;
+    min-width: 100%;
+    max-width: none;
 }
 
 .popular-place-wrap.v2 .single-place-image:hover img {
@@ -7310,6 +7322,8 @@ ul.icon li::before {
     height: auto;
     min-width: 100%;
     width: auto;
+    max-width: none;
+    max-height: 100%;
 }
 
 .featured-property-wrap.v2 .property-item:hover .property-img img {
