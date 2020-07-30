@@ -3578,6 +3578,8 @@ ul.hero_list li:last-child {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     height: 100%;
+    padding-top: 66%;
+    position: relative;
 }
 
 .property-img:before {
@@ -3598,9 +3600,18 @@ ul.hero_list li:last-child {
 }
 
 .property-img img {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    height: auto;
+    min-width: 100%;
+    width: auto;
+    max-width: 100%;
 }
+
 
 .property-item a {
     display: block;
@@ -3809,7 +3820,8 @@ ul.hero_list li:last-child {
 }
 
 .property-item:hover .property-img img {
-    transform: scale(1.2);
+    -webkit-transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -50%) scale(1.2);
 }
 
 
