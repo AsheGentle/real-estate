@@ -5850,6 +5850,9 @@ ul.res-list {
     border: none;
     box-shadow: 0 0px 5px rgba(0, 0, 0, 0.05);
     margin-bottom: 30px;
+    overflow: hidden;
+    padding-top: 66%;
+    position: relative;
     transition: 0.5s;
 }
 
@@ -5860,10 +5863,18 @@ ul.res-list {
 .single-blog-item.v1 img {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 66%;
+    min-width: 100%;
 }
 
 .single-blog-item.v1 .card-body {
+    background-color: #fff;
     padding: 15px 20px 0px 20px;
+    position: relative;
+    z-index: 10;
 }
 
 .single-blog-item.v1 .card-title {
@@ -5871,6 +5882,14 @@ ul.res-list {
     text-transform: capitalize;
     line-height: 1.5;
     padding-bottom: 25px;
+    height: 85px;
+    overflow: hidden;
+}
+
+.single-blog-item.v1 .bottom-content {
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
 }
 
 .card-body span.blog-cat {
@@ -13801,7 +13820,9 @@ span.infobox_rate {
         right: auto;
 
     }
-
+    .single-blog-item.v1 .card-title {
+        height: auto;
+    }
 
 }
 
