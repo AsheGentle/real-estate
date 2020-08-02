@@ -9329,12 +9329,27 @@ i.lnr.lnr-file-empty {
 
 }
 
+.list-gallery-thumb div div {
+    overflow: hidden;
+    padding-top: 74%;
+    position: relative;
+}
+
 .list-gallery-thumb img {
     cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    height: auto;
+    min-width: 100%;
+    width: auto;
+    max-width: 100%;
 }
 
 .single-property-header.property-carousel .carousel-indicators img {
-    /* max-width: 176px;*/
     cursor: pointer;
 }
 
