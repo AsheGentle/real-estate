@@ -6769,6 +6769,10 @@ ul.icon li::before {
     margin-top: 0;
 }
 
+.form-text {
+    margin-bottom: 25px;
+}
+
 .filter-input.custom-select::after {
     content: '\e874';
     font-family: "Linearicons-Free";
@@ -9211,6 +9215,13 @@ a.popup-yt i {
     columns: 3;
 }
 
+.property-info i {
+    color: #95E06C;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 12px;
+}
+
 .location-title h6 {
     display: inline-block;
     line-height: 1.2;
@@ -11173,6 +11184,10 @@ input[type="radio"] {
     height: 55px;
     background: #094D92;
     text-align: center;
+}
+
+.chat-popup:hover {
+    color: #fff;
 }
 
 .chat-popup i {

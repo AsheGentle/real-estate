@@ -375,12 +375,13 @@
                  Category menu Activation
         -------------------------------------- */
 
-
+        /*  begDel 04.08.20
         $(".chat-popup, .chat-close").click(function () {
 
             $(".agent-chat-form").toggle();
 
         });
+        --- endDel 04.08.20*/
 
         $(".dropdown-filter").on('click', function () {
 
