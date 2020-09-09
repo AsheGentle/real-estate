@@ -3372,7 +3372,7 @@ ul.hero_list li:last-child {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    max-height: 100%;
+    height: auto;
 }
 
 
