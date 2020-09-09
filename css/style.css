@@ -3359,8 +3359,20 @@ ul.hero_list li:last-child {
     position: relative;
 }
 
+.property-carousel .carousel-inner {
+    height: 460px;
+}
+
+.property-carousel .carousel-item {
+    height: 100%;
+}
+
 .property-carousel #carousel-thumb img {
     cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 100%;
 }
 
 
